@@ -256,21 +256,24 @@ Rails sets up a new project to use SQLite by default, so add the option "-d post
 3) Run 'bundle install', and recreate the DB using the 'rails db' commands.
 (https://coderwall.com/p/cpmdvg/rails-3-development-switch-from-sqlite3-to-pg-postgresql has more details.)
 
-***Run the Skeletal Rails 8 App***
-This proves that the prior setup is correct.
+***Run the Skeletal Rails 8 App***  
+This proves that the prior setup is correct.  
+```
 $ cd <Rails project directory>
 $ bin/rails db:migrate --> Created database '<project name>_development'
 $ bin/rails server -->
   => Booting Puma
   => Rails 8.0.0 application starting in development 
   ...
+```
 The Rails app is now running in the terminal window
+```
 > http://127.0.0.1:3000/ # Access the provided test page in a browser
 --> A test view that displays the Rails logo and app versions: 
   Rails version: 8.0.0
   Rack version: 3.1.8
   Ruby version: ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-linux]
-  
+``` 
 ***Add the project to Git***  
 In the app project directory:
 $ git init --> Initialized empty Git repository ...
