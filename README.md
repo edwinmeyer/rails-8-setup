@@ -275,11 +275,13 @@ The Rails app is now running in the terminal window
   Ruby version: ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-linux]
 ``` 
 ***Add the project to Git***  
-In the app project directory:
+In the app project directory:  
+```
 $ git init --> Initialized empty Git repository ...
 $ git add . # Note the trailing period, which means add all files
 $ git commit -m 'Rails 8 project setup'
 $ git status --> On branch master; nothing to commit, working tree clean
+```
 You may also want to push the Git repo to the Git repo service of your choice, e.g. Github
 
 ## Contact Me
